@@ -14,6 +14,7 @@ import java.util.Optional;
 @AllArgsConstructor
 public class DomainExemploController {
 
+
     private final DomainExemploRepository domainExemploRepository;
 
     @GetMapping("/{id}")
